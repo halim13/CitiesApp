@@ -16,8 +16,7 @@ class City extends Component {
 	static navigationOptions = props => {
 		const city = props.navigation.state.params
 		return {
-			// title: city.city,
-			title: 'City',
+			title: city.city.city,
 			headerTitleStyle: {
 				color: 'white',
 				fontSize: 20,
